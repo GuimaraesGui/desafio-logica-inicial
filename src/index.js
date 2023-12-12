@@ -1,6 +1,6 @@
-let CHAR_NAME = promt("Insira o nome do personagem: ");
-let char_xp = parseInt(prompt("Insira a sua XP: "));
-let rank = ["Ferro", "Bronze", "Prata Ouro", "Platina Diamante", "Ascendente"]
+let char_name = "DragonSlayer"; //Armazena o nome do personagem
+let char_xp = 7054; //Armazena a XP do personagem
+let rank
 
 if (char_xp < 1000){
     rank = "Ferro"
@@ -20,5 +20,4 @@ if (char_xp < 1000){
     rank = "Imortal"
 }
 
-console.log("O herói de nome " + CHAR_NAME + " está no nível de " + rank);
-documento.write("O herói de nome " + CHAR_NAME + " está no nível de " + rank);
+console.log("O herói de nome " + char_name + " está no nível de " + rank);
