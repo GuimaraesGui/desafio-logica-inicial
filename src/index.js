@@ -3,19 +3,22 @@ let char_xp = parseInt(prompt("Insira a sua XP: "));
 let rank = ["Ferro", "Bronze", "Prata Ouro", "Platina Diamante", "Ascendente"]
 
 if (char_xp < 1000){
-    console.log("Ferro");
+    rank = "Ferro"
 } else if(char_xp > 1001 && char_xp < 2000){
-    console.log("Bronze");
+    rank = "Bronze"
 } else if(char_xp > 2001 && char_xp < 5000){
-    console.log("Prata");
+    rank = "Prata"
 } else if(char_xp > 6001 && char_xp < 7000){
-    console.log("Ouro");
+    rank = "Ouro"
 } else if(char_xp > 7001 && char_xp < 8000){
-    console.log("Platina");
+    rank = "Platina"
 } else if(char_xp > 8001 && char_xp < 9000){
-    console.log("Ascendente");
+    rank = "Ascendente"
 } else if(char_xp > 9001 && char_xp < 10000){
-    console.log("Imortal");
+    rank = "Imortal"
 } else {
-    console.log("Radiante");
+    rank = "Imortal"
 }
+
+console.log("O herói de nome " + CHAR_NAME + " está no nível de " + rank);
+documento.write("O herói de nome " + CHAR_NAME + " está no nível de " + rank);
