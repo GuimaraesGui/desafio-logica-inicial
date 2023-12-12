@@ -1,4 +1,4 @@
-let CHAR_NAME;
+let CHAR_NAME = promt("Insira o nome do personagem: ");
 let char_xp = parseInt(prompt("Insira a sua XP: "));
 let rank = ["Ferro", "Bronze", "Prata Ouro", "Platina Diamante", "Ascendente"]
 
